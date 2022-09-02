@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #191A19;
+    color: #4E9F3D;
+    font-family: 'Sora', sans-serif;
+}
+
+#nav-elements {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #4E9F3D;
+}
+
+ul {
+   list-style: none; 
+   font-weight: 800px;
+   
+}
+
+
+li {
+    font-weight: 800px;
+    
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid #4E9F3D;
+    height: 94vh;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid #4E9F3D;
+    height: 100vh;
+    max-width: 100%;
+}
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid #4E9F3D;
+    height: 100vh;
+}
+
+
+#nav {
+    border-bottom: solid #4E9F3D;
+    height: 6vh;
+}
+
+#profile-pic {
+    width: 25%;
+    border-radius: 100px;
+}
+
+#color-picker, #chat-app, #tesla {
+    border-radius: 5px;
+    width: 60%;
+    height: 25vh;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+// projects
+
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid #4E9F3D;
+    height: 100vh;
+    max-height: 90%;
+}
+
+
+
+.project-title, .project-img-exp, .project-links {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.project-title {
+    
+    
+
+}
+
+
+.project-img-exp {
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+
+.project-links {
+    
+}
