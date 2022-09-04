@@ -4,7 +4,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Karla:wght@500&family=Montserrat:wght@100;400;900&family=Roboto:wght@400;500&family=Sora:wght@100;200;300;400;500;600;700&family=Titillium+Web:ital,wght@1,600&family=Ubuntu&display=swap" rel="stylesheet">
-    </head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+</head>
     <body>
         <nav id="nav">
             <ul id="nav-elements">
@@ -16,30 +18,24 @@
         </nav>
         
         <div id="main">
-                <h1>Rasheed Bamisedun</h1>
-                <h2>Front-End Developer</h2>
-                <h3>Animated arrow placeholder<h3>
-                <h4>Animated background / picture a dollar sign? </h4>    
+                <h1 class="animate__animated animate__rollIn">Rasheed Bamisedun</h1>
+                <h2 class="animate__animated animate__bounce">Front-End Developer</h2>
+                <img class="animate__animated animate__slideInDown animate__infinite arrow" src="">
+                   
         </div>
         
         <div id="about">
             <h1>About</h1>
-            <p>I use my endless passion for coding and design to build and develop web content that is user friendly, intuitive, and most importantly, assesible for all scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-            <h2>Link to resume</h2>
-            <img id="profile-pic" src="https://i.imgur.com/8W3wfxY.png"/>
+            <p id="about-me">I use my endless passion for coding and design to build and develop web content that is user friendly, intuitive, and most importantly, assesible for all scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <a  class="resume"href="https://drive.google.com/file/d/1q9rlZG2jqIKNCv-w0mD8wv3dh9rfkyhi/view?usp=sharing">Resume</a>
+            <img id="profile-pic" src="https://media-exp1.licdn.com/dms/image/C5603AQFLG5TBZMKU_w/profile-displayphoto-shrink_200_200/0/1660525715884?e=1667433600&v=beta&t=oTEqBdqB4glVW6iKJFB21xCz68qtVtm7Pqg6gV03goE"/>
              
         </div>
         
-             <div id="projects">
-                    <h1>Projects</h1>
+        <div id="projects">
+                    <h1 id="proj-title">Projects</h1>
              
              
-            <div>
-                    
-                    
-                    
-                    
-                    </div> 
              
              
                     <div class="project-title">
@@ -47,14 +43,15 @@
                     </div>
               
                     <div class="project-img-exp">
-                            <img id="color-picker" src="https://i.imgur.com/73iW5kn.png"/>
-                            <p>This is a short description of what I did to make this app scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the  </p> 
+                            <img id="color-picker" src="https://jakespodek.com/assets/chatapp.png"/>
+                            <p class="project-desc">This is a short description of what I did to make this app scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the  </p> 
                     </div>  
               
-                <div class="project-links">
-                            <button>Live</button>
-                            <button>Repo</button>
-                </div>         
+                    <div class="project-links">
+                            <a class="project-link"href="https://drive.google.com/file/d/1q9rlZG2jqIKNCv-w0mD8wv3dh9rfkyhi/view?usp=sharing">Live</a>
+                            <a class="project-link"href="https://drive.google.com/file/d/1q9rlZG2jqIKNCv-w0mD8wv3dh9rfkyhi/view?usp=sharing">Repo</a>
+                   
+                        </div>         
                       
             
             
@@ -66,12 +63,12 @@
                 
                 <div class="project-img-exp">
                         <img id="chat-app" src="https://jakespodek.com/assets/chatapp.png"/>
-                        <p>This is a short description of what I did to make this app scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the </p>     
+                        <p class="project-desc">This is a short description of what I did to make this app scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the </p>     
                 </div>  
                 
                 <div class="project-links">
-                        <button>Live</button>
-                        <button>Repo</button>
+                        <a class="project-link"href="https://drive.google.com/file/d/1q9rlZG2jqIKNCv-w0mD8wv3dh9rfkyhi/view?usp=sharing">Live</a>
+                        <a class="project-link"href="https://drive.google.com/file/d/1q9rlZG2jqIKNCv-w0mD8wv3dh9rfkyhi/view?usp=sharing">Repo</a>
                 </div>         
                            
                 
@@ -82,13 +79,13 @@
                 </div>
                 
                 <div class="project-img-exp">
-                       <img id="tesla" src="https://i.imgur.com/XUlnJXH.png"/>
-                       <p>This is a short description of what I did to make this app scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the</p>    
+                       <img id="tesla" src="https://jakespodek.com/assets/chatapp.png"/>
+                       <p class="project-desc">This is a short description of what I did to make this app scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the</p>    
                 </div>  
                 
                 <div class="project-links">
-                        <button>Live</button>
-                        <button>Repo</button>    
+                        <a class="project-link"href="https://drive.google.com/file/d/1q9rlZG2jqIKNCv-w0mD8wv3dh9rfkyhi/view?usp=sharing">Live</a>
+                        <a class="project-link"href="https://drive.google.com/file/d/1q9rlZG2jqIKNCv-w0mD8wv3dh9rfkyhi/view?usp=sharing">Repo</a>   
                 </div> 
                 
                 
@@ -101,9 +98,9 @@
          <div id="contact">
                     <h1>Contact Me</h1> 
                     <div id="contact-icons"> 
-                        <button>Linkedin</button>
-                        <button>Github</button> 
-                        <button>Email</button>  
+                        <a class="contact-btn" target="_blank" href="https://www.linkedin.com/in/rbamisedun/">Linkedin</a> 
+                        <a class="contact-btn" target="_blank" href="https://github.com/rbamisedun">GitHub</a> 
+                        <a class="contact-btn" target="_blank" href="mailto:rbamisedun@outlook.com">Email</a> 
                     </div>
         </div>
                
@@ -115,3 +112,5 @@
             
     </body>
 </html>
+
+
